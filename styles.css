@@ -80,7 +80,7 @@
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    padding: 10px 20px;
+    padding: 5px 20px;
     height: 100%;
     width: 100%;
     border: none;
@@ -100,3 +100,53 @@
     color: #c200f7;
     transition: all 0.2s ease;
 }
+
+
+/* carousel */
+.s-image{
+    padding: 15px;
+    width: 450px;
+    margin-right: 5px;
+  }
+  .title{
+    font-size: 60px;
+  }
+  .discription{
+    font-size: 40px;
+    line-height: 45px;
+  }
+  .d-info{
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .background{
+    background-color: #efefef;
+  }
+  .carousel-inner{
+    background-color: #efefef;
+  }
+
+  /* Footer */
+
+  .logo ul li{
+    padding: 15px;
+    font-weight: 700;
+  }
+  .list li{
+    padding-bottom: 10px;
+    font-size: 20px;
+  }
+  .list li a:hover{
+    color: rgb(0, 38, 128) !important;
+    transition: 0.2s ease-in-out;
+  }
+  .f-links{
+    padding: 8px;
+  }
+  .f-links:hover{
+    background: #efefef;
+    color: black;
+    transition: 0.3s ease-in-out;
+  }
+
+  
