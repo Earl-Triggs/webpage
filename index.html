@@ -7,20 +7,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Webpage Online Shopping</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=search" />
 </head>
 <body>
     <nav class="navbar">
         <div class="navbar__container">
-            <a href="/" id="navbar__logo">GoCart!</a>
+            <a href="/" id="navbar__logo"><span class="material-icons-outlined star-icon">
+              shopping_cart
+              </span>GoCart!</a>
             <span class="bar"></span>
             <span class="bar"></span>
             <span class="bar"></span>
             <ui class="navbar__menu">
-                <li class="navbar__item"><a href="/" class="navbar__links">
+              <form>
+                <div id="Home" class="search">
+                    <span class="search-icon material-symbols-outlined">search</span>
+                    <input class="search-input" type="search" placeholder="Search">
+        
+                </div>
+            </form>
+                <li class="navbar__item"><a href="#Top" class="navbar__links">
                 Home
                 </a>
             </li>
-                <li class="navbar__item"><a href="/" class="navbar__links">
+                <li class="navbar__item"><a href="#product" class="navbar__links">
                 Products
                 </a>
             </li>
@@ -30,7 +42,7 @@
                 </a>
             </li>
             </li>
-                <li class="navbar__item"><a href="/" class="navbar__links">
+                <li class="navbar__item"><a href="#footer" class="navbar__links">
                 Support
                 </a>
             </li>
@@ -67,10 +79,10 @@
               GoCart! Online Shopping
            </span>
            <span class="discription">
-            Your Ultimate Online Shopping Destination!
+            Your One-Stop Shop for Everything You Need!
             </span>
            <span class="d-info">
-            Discover unbeatable deals, a vast selection of products, and lightning-fast delivery right at your fingertips. Shop smarter, shop faster, with GoCart!</span>
+            From fashion and electronics to home essentials and more, we've made online shopping effortless. With fast delivery, secure payment options, and endless choices, finding what you love has never been easier. Start exploring and let us bring your favorites right to your doorstep.</span>
          </div>
        <div>
           <img src="./images/banner_img_01.jpg" class="d-block s-image">
@@ -85,10 +97,10 @@
               GoCart! Online Shopping
             </span>
            <span class="discription">
-            Your Ultimate Online Shopping Destination!
+            Deals You’ll Love, Delivered Straight to Your Door!
            </span>
            <span class="d-info">
-            Discover unbeatable deals, a vast selection of products, and lightning-fast delivery right at your fingertips. Shop smarter, shop faster, with GoCart!</span>
+            Experience the convenience of online shopping with handpicked products and unbeatable offers. Whether you’re updating your wardrobe, upgrading your gadgets, or revamping your home, we make it simple, fast, and fun. Shop today and see the difference!</span>
          </div>
           <div>
             <img src="./images/banner_img_02.jpg" class="d-block s-image">
@@ -102,7 +114,7 @@
          <span class="text-align title mb-3" style="color: rgb(173, 12, 173);">GoCart! Online Shopping</span>
            <span class="discription">Your Ultimate Online Shopping Destination!
              </span>
-            <span class="d-info">Discover unbeatable deals, a vast selection of products, and lightning-fast delivery right at your fingertips. Shop smarter, shop faster, with GoCart!</span>
+            <span class="d-info">Explore an incredible range of products from top brands, curated just for you. Whether you're hunting for the latest trends or everyday essentials, we’ve got it all at unbeatable prices. Enjoy seamless browsing, exclusive deals, and a shopping experience like no other, with GoCart!</span>
         </div>
          <div>
           <img src="./images/banner_img_03.jpg" class="d-block s-image">
@@ -128,7 +140,7 @@
 <!-- card -->
 <section class="bg-light">
   <div class="container py-5">
-    <div class="row text-center py-3">
+    <div id="product" class="row text-center py-3">
       <div class="col-lg-6 m-auto">
         <h1>Featured Products</h1>
         <p class="fw-bold">Handpicked favorites just for you! Explore our top-rated, trending, and must-have items. Don't miss out, grab them before they’re gone!</p>
@@ -146,12 +158,12 @@
               <li class="text-muted text-right">$240.00</li>
             </ul>
             <a href="" class="h2 text-decoration-none text-dark">
-              Gym Weight
+              Gym Bag
             </a>
-            <p class="card-text">Lorem ipsum, dolor sit amet
-              consectetur adipisicing elit. Error pariatur earum iure
-              delectus facilis</p>
-            <p class="text-muted">4.8/5 Stars Reviews (26)</p>
+            <p class="card-text">This is the product description</p>
+            <p class="text-muted"><span class="material-icons-outlined star-icon">
+star
+</span>4.8/5 Reviews (26)</p>
           </div>
         </div>
       </div>
@@ -166,12 +178,12 @@
               <li class="text-muted text-right">$240.00</li>
             </ul>
             <a href="" class="h2 text-decoration-none text-dark">
-              Gym Weight
+              Gym Bag
             </a>
-            <p class="card-text">Lorem ipsum, dolor sit amet
-              consectetur adipisicing elit. Error pariatur earum iure
-              delectus facilis</p>
-            <p class="text-muted">4.8/5 Stars Reviews (26)</p>
+            <p class="card-text">This is the product description</p>
+            <p class="text-muted"><span class="material-icons-outlined star-icon">
+star
+</span>4.8/5 Reviews (26)</p>
           </div>
         </div>
       </div>
@@ -186,12 +198,12 @@
               <li class="text-muted text-right">$240.00</li>
             </ul>
             <a href="" class="h2 text-decoration-none text-dark">
-              Gym Weight
+              Gym Bag
             </a>
-            <p class="card-text">Lorem ipsum, dolor sit amet
-              consectetur adipisicing elit. Error pariatur earum iure
-              delectus facilis</p>
-            <p class="text-muted">4.8/5 Stars Reviews (26)</p>
+            <p class="card-text">This is the product description</p>
+            <p class="text-muted"><span class="material-icons-outlined star-icon">
+star
+</span>4.8/5 Reviews (26)</p>
           </div>
         </div>
       </div>
@@ -206,12 +218,12 @@
               <li class="text-muted text-right">$240.00</li>
             </ul>
             <a href="" class="h2 text-decoration-none text-dark">
-              Gym Weight
+              Gym Bag
             </a>
-            <p class="card-text">Lorem ipsum, dolor sit amet
-              consectetur adipisicing elit. Error pariatur earum iure
-              delectus facilis</p>
-            <p class="text-muted">4.8/5 Stars Reviews (26)</p>
+            <p class="card-text">This is the product description</p>
+            <p class="text-muted"><span class="material-icons-outlined star-icon">
+star
+</span>4.8/5 Reviews (26)</p>
           </div>
         </div>
       </div>
@@ -226,12 +238,12 @@
               <li class="text-muted text-right">$240.00</li>
             </ul>
             <a href="" class="h2 text-decoration-none text-dark">
-              Gym Weight
+              Gym Bag
             </a>
-            <p class="card-text">Lorem ipsum, dolor sit amet
-              consectetur adipisicing elit. Error pariatur earum iure
-              delectus facilis</p>
-            <p class="text-muted">4.8/5 Stars Reviews (26)</p>
+            <p class="card-text">This is the product description</p>
+            <p class="text-muted"><span class="material-icons-outlined star-icon">
+star
+</span>4.8/5 Reviews (26)</p>
           </div>
         </div>
       </div>
@@ -246,12 +258,12 @@
               <li class="text-muted text-right">$240.00</li>
             </ul>
             <a href="" class="h2 text-decoration-none text-dark">
-              Gym Weight
+              Gym Bag
             </a>
-            <p class="card-text">Lorem ipsum, dolor sit amet
-              consectetur adipisicing elit. Error pariatur earum iure
-              delectus facilis</p>
-            <p class="text-muted">4.8/5 Stars Reviews (26)</p>
+            <p class="card-text">This is the product description</p>
+            <p class="text-muted"><span class="material-icons-outlined star-icon">
+star
+</span>4.8/5 Reviews (26)</p>
           </div>
         </div>
       </div>
@@ -266,12 +278,12 @@
               <li class="text-muted text-right">$240.00</li>
             </ul>
             <a href="" class="h2 text-decoration-none text-dark">
-              Gym Weight
+              Gym Bag
             </a>
-            <p class="card-text">Lorem ipsum, dolor sit amet
-              consectetur adipisicing elit. Error pariatur earum iure
-              delectus facilis</p>
-            <p class="text-muted">4.8/5 Stars Reviews (26)</p>
+            <p class="card-text">This is the product description</p>
+            <p class="text-muted"><span class="material-icons-outlined star-icon">
+star
+</span>4.8/5 Reviews (26)</p>
           </div>
         </div>
       </div>
@@ -286,12 +298,12 @@
               <li class="text-muted text-right">$240.00</li>
             </ul>
             <a href="" class="h2 text-decoration-none text-dark">
-              Gym Weight
+              Gym Bag
             </a>
-            <p class="card-text">Lorem ipsum, dolor sit amet
-              consectetur adipisicing elit. Error pariatur earum iure
-              delectus facilis</p>
-            <p class="text-muted">4.8/5 Stars Reviews (26)</p>
+            <p class="card-text">This is the product description</p>
+            <p class="text-muted"><span class="material-icons-outlined star-icon">
+star
+</span>4.8/5 Reviews (26)</p>
           </div>
         </div>
       </div>
@@ -306,12 +318,12 @@
               <li class="text-muted text-right">$240.00</li>
             </ul>
             <a href="" class="h2 text-decoration-none text-dark">
-              Gym Weight
+              Gym Bag
             </a>
-            <p class="card-text">Lorem ipsum, dolor sit amet
-              consectetur adipisicing elit. Error pariatur earum iure
-              delectus facilis</p>
-            <p class="text-muted">4.8/5 Stars Reviews (26)</p>
+            <p class="card-text">This is the product description</p>
+            <p class="text-muted"><span class="material-icons-outlined star-icon">
+star
+</span>4.8/5 Reviews (26)</p>
           </div>
         </div>
       </div>
@@ -319,7 +331,7 @@
 <!-- footer -->
 
 <footer class="bg-dark">
-  <div class="container">
+  <div id="footer" class="container">
     <div class="row">
       <div class="col-md-4 pt-5 logo">
         <h2 class="text-decoration-none h2 border-bottom border-light pb-3 " style="color: rgb(173, 12, 173);">

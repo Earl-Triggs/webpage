@@ -34,7 +34,7 @@
     background-image: linear-gradient(to top,#131313 0%, #c200f7 100%);
     background-size: 100%;
     -webkit-background-clip: text;
-    -moz-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
     display: flex;
@@ -101,6 +101,31 @@
     transition: all 0.2s ease;
 }
 
+/* Search bar */
+
+.search {
+  width: max-content;
+  display: flex;
+  align-items: center;
+  padding: 14px;
+  border-radius: 28px;
+  background: #f6f6f6;
+  width: 300px;
+  transition: box-shadow 0.3s;
+}
+
+.search:focus-within {
+  box-shadow: 0 0 3px #c200f7;
+}
+
+.search input {
+  border: none;
+  background: none;
+  outline: none;
+  color: #131313;
+  font-size: 1rem;
+  padding: 0 5px;
+}
 
 /* carousel */
 .s-image{
@@ -125,7 +150,11 @@
   .carousel-inner{
     background-color: #efefef;
   }
+/*cards*/
 
+.star-icon{
+    color: #f7c200;
+  }
   /* Footer */
 
   .logo ul li{
