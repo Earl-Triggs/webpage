@@ -312,3 +312,18 @@ form button {
 form button:hover {
     background: #450058;
 }
+
+.deals {
+    background-color: #c200f7;
+    border-radius: 25px;
+
+}
+
+.bestsell {
+    color: transparent;
+    -webkit-text-stroke-color: #131313;
+    -webkit-text-stroke-width: 1.5px;
+    background-image: linear-gradient(#f78400, #ffffff);
+    color: transparent;
+    background-clip: text;
+}
