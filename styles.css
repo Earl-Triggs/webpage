@@ -314,7 +314,7 @@ form button:hover {
 }
 
 .deals {
-    background-color: #c200f7;
+    background-color: #9100ba;
     border-radius: 25px;
 
 }
@@ -323,7 +323,7 @@ form button:hover {
     color: transparent;
     -webkit-text-stroke-color: #131313;
     -webkit-text-stroke-width: 1.5px;
-    background-image: linear-gradient(#f78400, #ffffff);
+    background-image: linear-gradient(#f78400, #c200f7);
     color: transparent;
     background-clip: text;
 }
